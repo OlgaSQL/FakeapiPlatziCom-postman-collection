@@ -1,0 +1,14 @@
+{
+  "name": "postmantests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run FakeapiPlatziCom.postman_collection.json -r cli,htmlextra"
+  },
+  "author": "Olga Zagurska",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^6.2.2"
+  }
+}
